@@ -1,0 +1,58 @@
+.form {
+    padding-top: 70px;
+}
+.date {
+    display: inline-block;
+    font-size: 14pt;
+    margin-right: 40px;
+}
+.enroll-btn, .link-btn{
+    max-width: 224px;
+    width: 100%;
+    height: 54px;
+    background: none;
+    border: none;
+    border-radius: 5px;
+    font-weight: 700;
+    line-height: 16px;
+    align-items: center;
+    text-transform: uppercase;
+    color: #000000;
+    font-size: 12px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+.enroll-btn {
+    background: #43A047;
+}
+.link-active {
+    background: #dfdfdf;
+}
+.link-btn:hover {
+    background: #dfdfdf;
+}
+#comment, #date-input, #timepicker {
+    
+    border-radius: 5px;
+    box-shadow: 0px 10px 15px rgba(1, 1, 2, 0.2);
+}
+#comment {
+    display: block;
+    width: 650px;
+    height: 200px;
+    margin: 50px 0;
+    resize: none;
+    padding: 20px;
+}
+#date-input {
+    width: 124px;
+    height: 12px;
+    margin-right: 15%;
+    padding: 10px;
+    border: 1px solid black;
+}
+#timepicker {
+    width: 124px;
+    height: 34px;
+    padding-left: 10px;
+}

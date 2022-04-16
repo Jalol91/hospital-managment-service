@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>List</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/list.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+              <li><a href="./order.html">enroll</a></li>
+              <li><a href="./list.html">order list</a></li>
+              <li><a href="./change-pass.html">change password</a></li>
+              <li><a href="#" onclick="logOut()">exit</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="container ">
+        <div class="list-wrapper"></div>
+      </section>
+    <section class="modal-wrapper">
+        <div class="shadow"></div>
+      <div class="change-modal">
+        <!-- <form> -->
+          <div class="inline-wrapper">
+            <h2 class="date">Enter time</h2>
+            <select name="time" id="timepicker"></select>
+            <input type="date" name="date" id="date-input" />
+          </div>
+          <textarea name="comment" id="comment" onchange="onChangeComment()"></textarea>
+          <button class="enroll-btn" onclick="updateItem()">Make an appointment</button>
+          <button class="cancel-modal" onclick="closeModal()">Cancel</button>
+        <!-- </form> -->
+      </div>
+    </section>
+</body>
+<script src="js/main.js"></script>
+<script src="js/list.js"></script>
+</html>

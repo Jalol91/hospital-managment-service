@@ -1,0 +1,123 @@
+.list-wrapper {
+    margin: 40px 0;
+    height: 300px;
+}
+.list-item {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 30px;
+}
+.text-content {
+    box-shadow: 0px 2px 8px rgba(19, 35, 44, 0.14);
+    max-width: 1050px;
+    width: 100%;
+    margin-right: 40px;
+    padding: 30px;
+}
+.buttons {
+    margin: auto 0;
+}
+.cancel-btn, .change-btn {
+    max-width: 124px;
+    width: 100%;
+    height: 34px;
+    background: #dfdfdf;
+    border: none;
+    border-radius: 5px;
+    font-weight: 700;
+    line-height: 16px;
+    align-items: center;
+    text-transform: uppercase;
+    color: #000000;
+    font-size: 12px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+.cancel-btn {
+    margin-top: 15px;
+}
+.enroll, .information {
+    font-family: "Roboto Regular"
+}
+.change-modal{
+    background: #fff;
+    position: absolute;
+    z-index: 1111;
+    top: 25%;
+    left: 25%;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 10px 15px rgba(1, 1, 2, 0.2);
+}
+
+.date {
+    display: inline-block;
+    font-size: 14pt;
+    margin-right: 40px;
+}
+.enroll-btn, .link-btn, .cancel-modal{
+    max-width: 224px;
+    width: 100%;
+    height: 54px;
+    background: none;
+    border: none;
+    border-radius: 5px;
+    font-weight: 700;
+    line-height: 16px;
+    align-items: center;
+    text-transform: uppercase;
+    color: #000000;
+    font-size: 12px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+.enroll-btn, .cancel-modal {
+    background: #dfdfdf;
+}
+.link-active {
+    background: #dfdfdf;
+}
+.link-btn:hover {
+    background: #dfdfdf;
+}
+#comment, #date-input, #timepicker {
+    
+    border-radius: 5px;
+    box-shadow: 0px 10px 15px rgba(1, 1, 2, 0.2);
+}
+#comment {
+    display: block;
+    width: 650px;
+    height: 200px;
+    margin: 50px 0;
+    resize: none;
+    padding: 20px;
+}
+#date-input {
+    width: 124px;
+    height: 12px;
+    margin-right: 15%;
+    padding: 10px;
+    border: 1px solid black;
+}
+#timepicker {
+    width: 124px;
+    height: 34px;
+    padding-left: 10px;
+}
+.modal-wrapper {
+    display: none;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+.shadow{
+    background: rgba(0,0,0,.8);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}

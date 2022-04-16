@@ -1,0 +1,32 @@
+body{
+    margin: 0;
+}
+header{
+    background: #272727;
+}
+
+nav ul{
+    height: 81px;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+
+nav li{
+    list-style-type: none;
+}
+nav li a {
+    padding: 20px;
+    color: rgb(236, 223, 223);
+    text-decoration: none;
+}
+
+nav li a:hover {
+    color: rgb(210, 148, 148);
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1150px;
+    width: 100%;
+}
