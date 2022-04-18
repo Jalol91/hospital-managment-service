@@ -1,5 +1,8 @@
 # hospital-managment-service
 
+Deployed url link: https://jalol91.github.io/hospital-managment-service/
+
+
 Description
 
 
@@ -11,10 +14,15 @@ Once appointment has been creadted user can update time or date and app also let
 Patient 's Stories
 
 As a patient I want to sign in/up
+
 As a patient I want to Create a new < resource >
+
 As a patient I want to Read multiple < resources >
+
 As a patient I want to Read a single < resource >
+
 As a patient I want to Update a < resource > I own
+
 As a patient user I want to Delete a < resource > I own
 
 
